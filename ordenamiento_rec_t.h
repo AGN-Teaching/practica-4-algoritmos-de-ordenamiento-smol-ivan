@@ -87,18 +87,3 @@ void quicksort(int A[], int p, int r) {
         quicksort(A, q + 1, r);
     }
 }
-
-//Merge sort mejorado
-void merge_sort_mejorado(int A[], int inicio, int fin) {
-    // Numero k donde se deja recursividad con merge
-    if (fin - inicio <= 252) {
-        int n = fin - inicio;
-        insertion_sort(A, n);
-    }
-    if (inicio < fin) {
-        int medio = (inicio + fin) / 2;
-        merge_sort_mejorado(A, inicio, medio);
-        merge_sort_mejorado(A, medio + 1, fin);
-        merge(A, inicio, medio, fin);
-    }
-}
