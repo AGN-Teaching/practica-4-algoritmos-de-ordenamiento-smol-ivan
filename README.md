@@ -55,6 +55,7 @@
 ![Tabla 3 de promedios](./src/img/chart_3.jpg)
 
 - Para las desviaciones estandar se decidio hacer otra grafica de lineas, ya que es interesante ver la diversidad de datos que se obtienen en ciertos tamaños y la consistencia que puedan tener los algoritmos
+
 ![Tabla para desviacione estandar](./src/img/chart_sd.jpg)
 
 ## Analisis de resultados
@@ -65,4 +66,4 @@
 
 - Tambien es importante notar el aumento exponencial de la dispersion de dos algoritmos _selectionsort y bubblesort_ este salto destaca porque de tener una desviacion aproximada a dos con _n igual a 500 mil_ a pasar a una desviacion de 20 con _n igual a un millon_ haciendo mencion tambien al aumento de la desviacion para _insertionsort_ que llego a pasar 10. Y casualmente esta variabilidad afecta o esta relacionada con el rendimiento de estos algoritmos ya que en este rango de _n igual a un millon_ es cuando se disparan los tiempos promedio y en las pruebas se ven los primeros tiempos promedios rondando un tiempo de 100 segundos por ejecucion.
 
-- Haciendo mencion de _mergesort_ es increible la consistencia que tiene incluso con arreglos enormes, y es que toda la dispersion se mantiene  muy cerca de cero y con el arreglo mas grande registrado la desviacion se encuentra dentro de las centecimas!
+- Haciendo mencion de _mergesort_ es increible la consistencia que tiene incluso con arreglos enormes, y es que toda la dispersion se mantiene muy cerca de cero y con el arreglo mas grande registrado la desviacion se encuentra dentro de las centecimas! De los algoritmos probados, este es el que 
