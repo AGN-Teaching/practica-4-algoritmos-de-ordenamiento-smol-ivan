@@ -107,4 +107,4 @@
 
 - Los algoritmos iterativos se estudio que son de n<sup>2</sup> y no fue hasta intentar hacer la prueba con un millon que se corroboro lo que significa ser de ese orden, y dentro de ellos insertion sort resulto mostrar bastante mejores resultados para arreglos diminutos (50 o menos) lo cual lo hace un buen candidato para problemas muy diminutos.
 
-- Dentro de los algoritmos recursivos el que destaca en todo es merge sort, es confiable y eficaz en todo aspecto, mientras que quicksort apesar de tener resultados mejores que los iterativos, igual toma la misma tendencia de ellos lo cual termina por coronar a mergesort como el mejor en todo
+- Dentro de los algoritmos recursivos el que destaca en todo es merge sort, es confiable y eficaz en todo aspecto, mientras que quicksort apesar de tener resultados mejores que los iterativos, igual toma la misma tendencia de ellos lo cual termina por coronar a mergesort como el mejor en todo.
